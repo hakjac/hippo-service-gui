@@ -1,0 +1,19 @@
+<div class="mainbox">
+  <h5 class="title">{{ serviceTitle }}</h5>
+
+  <div class="leftright-container">
+    <div class="left-container">
+       <button mat-raised-button color="primary" (click)="openButtonClicked()" class="left">Open Door
+       </button>
+          <button mat-raised-button color="primary" (click)="closeButtonClicked()" class="left">Close  Door
+       </button>
+      </div>
+      <div class="right-container">
+        <span class="spinner-wrapper">
+              <mat-spinner *ngIf="working" diameter="24"></mat-spinner>
+        </span>
+        <button matRipple mat-stroked-button color="basic" (click)="stateButtonClicked()"
+                class="right" style="width:100px" #doorStatusElement>{{doorStatus}}</button>
+    </div>
+  </div>
+</div>

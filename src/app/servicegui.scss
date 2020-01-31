@@ -1,0 +1,46 @@
+.mainbox {
+  //border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  padding: 10px 10px 10px 10px;
+}
+
+.title {
+  //border: 1px solid magenta;
+  margin: 0px 0px 4px 0px;
+}
+
+.leftright-container {
+  //border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  //border: 1px solid red;
+  display: flex;
+}
+
+.right-container {
+  //border: 1px solid magenta;
+  display: flex;
+}
+
+.left {
+  //border: 1px solid lime;
+  margin: 0px 10px 0px 0px;
+}
+.right {
+  //border: 1px solid yellow;
+  margin: 0px 0px 0px 10px;
+}
+
+.spinner-wrapper {
+  //border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
